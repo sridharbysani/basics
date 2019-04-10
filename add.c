@@ -1,18 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    int A=1, B=2, c;
+      double firstNumber=23, secondNumber=34, temporaryVariable;
+
     
-    printf("Enter two integers: ");
+    
+      temporaryVariable = firstNumber;
 
-    // Two integers entered by user is stored using scanf() function
-  
+      firstNumber = secondNumber;
 
-    // sum of two numbers in stored in variable sumOfTwoNumbers
-    C = A + B;
+    
+      secondNumber = temporaryVariable;
 
-    // Displays sum      
-    printf("%d + %d = %d", A, B, C);
+      printf("\nAfter swapping, firstNumber = %.2lf\n", firstNumber);
+      printf("After swapping, secondNumber = %.2lf", secondNumber);
 
-    return 0;
+      return 0;
 }
