@@ -4,5 +4,6 @@
  - clang
  - gcc
  script:
- - gcc -o main main.c // we can use gcc instead of clang too
- - ./main
+ - gcc -o test main.c // we can use gcc instead of clang too
+ - ./test
+ 
